@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="jquery.js"></script>
+	<script src="client.js"></script>
+	<title>Demo Chat Room</title>
+</head>
+<body>
+	<div id="container">
+		<div id="JoinRoom">
+			<input type="text" id="txtRoom"/>
+			<input type="button" value="Tạo Room" id="btnTaoRoom"/>
+		</div>
+		<div id="Chatroom">
+			<div id="left">
+				<h3>Room Đang Online</h3>
+			</div>
+			<div id="right">
+				<h4 id="room-hien-tai">.....</h4>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

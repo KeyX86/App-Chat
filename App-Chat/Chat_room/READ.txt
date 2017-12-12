@@ -1,0 +1,2 @@
+﻿Status :
+Không thể bóc tách array từ server gửi về và xuất ra cho người dùng 

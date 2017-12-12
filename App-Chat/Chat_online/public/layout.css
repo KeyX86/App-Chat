@@ -1,0 +1,60 @@
+body {
+    background: #ebeef4;
+    font-family: Arial;
+}
+
+#wrapper {
+    width: 600px;
+    margin: auto;
+}
+#txtUsername {
+    background: transparent;
+    border: 1px solid black;
+}
+
+#left , #right {
+   /* min-height: 300px; */
+}
+#left {
+    width: 30%;
+    float: left;
+    background: #f0f2d0;
+}
+#right {
+    width: 70%;
+    float: right;
+    background: #d4f9f8;
+}
+
+#boxTitle {
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#boxContent {
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+}
+
+#sayHi {
+    text-align: right;
+}
+
+#listMessages {
+    height: 200px;
+    background: #fcead4;
+    margin-bottom: 45px;
+}
+#txtMessage {
+    background: transparent;
+    border: 1px solid black;
+
+} 
+
+#currentUser {
+    font-weight: bold;
+}

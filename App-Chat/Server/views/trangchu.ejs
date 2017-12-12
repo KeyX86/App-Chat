@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script src="jquery.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+        <script>
+            var socket = io("http://localhost:3000");
+           socket.on("server-send-data", function(data){
+                $("#data").append(data);
+           });
+            $(document).ready(function(){
+
+                $("#mrA").click(function(){
+                    // Bắt sự kiện khi người dùng click vào thì sẽ gửi dữ liệu lên server
+                    socket.emit("client-send-data","Hello");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>Client</p>
+        <div id="mrA">Click</div>
+
+        <h1 id="data"></h1>
+    </body>
+</html>

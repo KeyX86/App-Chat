@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script src="socket.io/socket.io.js"></script>
+		<link rel="stylesheet" type="text/css" href="layout.css"/>
+		<script src="jquery.js"></script>
+		<script src="xuly.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="loginform">
+				<h2>Mời bạn nhập tên</h2>
+				<input type="text" id="txtUsername"/>
+				<input type="button" value="Register" id="btnRegister"/>
+			</div>
+
+			<div id="chatform">
+				<div id="left">
+					<div id="boxTitle">User Online</div>
+					<div id="boxContent">
+					
+					</div>
+				</div>
+				<div id="right">
+					<div id="sayHi">
+					Chào mừng bạn <span id="currentUser">Van A</span>
+					<input type="button" value="Logout" id="btnLogout"/> 
+					</div>	
+
+					<div id="listMessages">
+
+					</div>
+					<div id="thongbao"></div>
+					<input type="text" id="txtMessage"/>
+					<input type="button" value="Send" id="btnSendMessage"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

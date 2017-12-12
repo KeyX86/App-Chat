@@ -1,0 +1,30 @@
+body {
+	background: #e6e6e6;
+	font-weight: bold;
+}
+
+#container {
+	width: 600px;
+	margin: auto;
+}
+
+#txtRoom {
+	background: transparent;
+	border: 1px solid black;
+}
+#left , #right {
+	min-height: 300px;
+}
+#left {
+	width: 30%;
+	background: #4dffff;
+	float: left;
+}
+#right {
+	width: 70%;
+	background: #1a8cff;
+	float: right;
+}
+#room-hien-tai {
+	text-align: right;
+}
